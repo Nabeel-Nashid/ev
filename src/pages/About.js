@@ -1,5 +1,6 @@
 import React from "react";
 import bg from "../assets/charging2.jpg";
+import CountUp from "react-countup";
 
 function About() {
   return (
@@ -7,31 +8,38 @@ function About() {
       <div className="flex flex-row">
         <div className="flex flex-col justify-between">
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-4xl text-[#87bf30] font-bold">20+</h1>
+            <h1 className="text-4xl text-[#87bf30] font-bold">
+              <CountUp end={20} />+
+            </h1>
             <h1 className="my-1 font-light">YEARS OF EXPERIANCE</h1>
             <div class="w-44 h-0.5 bg-slate-300 my-4"></div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-4xl text-[#87bf30] font-bold">80+</h1>
+            <h1 className="text-4xl text-[#87bf30] font-bold">
+              <CountUp end={50} />+
+            </h1>
             <h1 className="my-1 font-light">SERVICE STATIONS</h1>
             <div class="w-44 h-0.5 bg-slate-300 my-4"></div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-4xl text-[#87bf30] font-bold">20K</h1>
+            <h1 className="text-4xl text-[#87bf30] font-bold">
+              <CountUp end={20} />K
+            </h1>
             <h1 className="my-1 font-light">YEARS OF EXPERIANCE</h1>
             <div class="w-44 h-0.5 bg-slate-300 my-4"></div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-4xl text-[#87bf30] font-bold">20+</h1>
+            <h1 className="text-4xl text-[#87bf30] font-bold">
+              <CountUp end={45} />+
+            </h1>
             <h1 className="my-1 font-light">YEARS OF EXPERIANCE</h1>
             <div class="w-44 h-0.5 bg-slate-300 my-4"></div>
           </div>
         </div>
-        
       </div>
       <div>
-          <img src={bg} className="w-56 h-96 rounded-lg" alt="Background" />
-        </div>
+        <img src={bg} className="w-56 h-96 rounded-lg" alt="Background" />
+      </div>
       <div>
         <h1 className="text-[#87bf30] text-lg">About Edvex</h1>
         <div className="flex ">
