@@ -5,6 +5,7 @@ import Navbar from "./pages/Navbar";
 import About from "./pages/About";
 import Service from "./pages/Service";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Products from "./pages/Products";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/product" element={<Products/>} />
+
         </Routes>
       </BrowserRouter>
     </div>

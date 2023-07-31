@@ -12,8 +12,8 @@ function Service() {
         </h1>
         <h1 className="text-white mt-3 text-lg">Our Services</h1>
       </div>
-      <div className="grid w-full h-screen sm:flex flex-col justify-evenly">
-        <div className="flex justify-evenly">
+      <div className="grid w-full sm:h-screen sm:flex flex-col justify-evenly">
+        <div className="grid sm:flex justify-evenly">
           <div>
             <div className="my-10">
               <div className="flex">

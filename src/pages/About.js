@@ -1,6 +1,10 @@
 import React from "react";
 import bg from "../assets/charging4.jpg";
 import CountUp from "react-countup";
+import { AiOutlineCar } from "react-icons/ai";
+import { PiChargingStationFill } from "react-icons/pi";
+import { BiSolidLeaf } from "react-icons/bi";
+import { BsTools } from "react-icons/bs";
 
 function About() {
   return (
@@ -61,6 +65,9 @@ function About() {
         <div class="grid mb-8  rounded-lg shadow-sm  md:mb-12 md:grid-cols-2">
           <figure class="flex flex-col items-center justify-center p-4 text-center bg-[#f5f5f5]  rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 ">
             <blockquote class="max-w-2xl mx-auto my-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+              <div className="flex items-center justify-center">
+                <AiOutlineCar className="w-7 h-7 text-[#87bf30]" />
+              </div>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                 Spare Parts Managment
               </h3>
@@ -68,6 +75,9 @@ function About() {
           </figure>
           <figure class="flex flex-col items-center justify-center p-4 text-center bg-white  rounded-tr-lg dark:bg-gray-800 dark:border-gray-700">
             <blockquote class="max-w-2xl mx-auto my-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <div className="flex items-center justify-center">
+                <PiChargingStationFill className="w-7 h-7 text-[#87bf30]" />
+              </div>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                 Fast DC Charging
               </h3>
@@ -75,6 +85,9 @@ function About() {
           </figure>
           <figure class="flex flex-col items-center justify-center p-4 text-center bg-white  rounded-bl-lg md:border-b-0 md:border-r dark:bg-gray-800 dark:border-gray-700">
             <blockquote class="max-w-2xl mx-auto my-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <div className="flex items-center justify-center">
+                <BiSolidLeaf className="w-7 h-7 text-[#87bf30]" />
+              </div>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                 Warranty Extention
               </h3>
@@ -82,13 +95,16 @@ function About() {
           </figure>
           <figure class="flex flex-col items-center justify-center p-4 text-center bg-[#f5f5f5]  rounded-br-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
             <blockquote class="max-w-2xl mx-auto my-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <div className="flex items-center justify-center">
+                <BsTools className="w-6 h-6 text-[#87bf30]" />
+              </div>
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
                 Maintainance
               </h3>
             </blockquote>
           </figure>
         </div>
-        <button className="p-2 bg-[#87bf30] rounded-full text-white font-bold text-sm">
+        <button className="p-2 md:my-0 my-2 bg-[#87bf30] rounded-full text-white font-bold text-sm">
           About More
         </button>
       </div>
