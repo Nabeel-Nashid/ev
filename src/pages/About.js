@@ -1,11 +1,11 @@
 import React from "react";
-import bg from "../assets/charging2.jpg";
+import bg from "../assets/charging4.jpg";
 import CountUp from "react-countup";
 
 function About() {
   return (
-    <div className="w-full h-screen flex justify-evenly items-center">
-      <div className="flex flex-row">
+    <div className="grid w-full h-screen md:flex justify-evenly items-center">
+      <div className="flex flex-row justify-center">
         <div className="flex flex-col justify-between">
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-4xl text-[#87bf30] font-bold">
@@ -37,8 +37,8 @@ function About() {
           </div>
         </div>
       </div>
-      <div>
-        <img src={bg} className="w-56 h-96 rounded-lg" alt="Background" />
+      <div className="flex justify-center my-7">
+        <img src={bg} className="w-64 h-96 rounded-lg" alt="Background" />
       </div>
       <div>
         <h1 className="text-[#87bf30] text-lg">About Edvex</h1>
