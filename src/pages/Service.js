@@ -1,4 +1,5 @@
 import React from "react";
+import charging from "../assets/charging3.jpg"
 
 function Service() {
   return (
@@ -56,7 +57,9 @@ function Service() {
             </div>
           </div>
 
-          <div>image</div>
+          <div className="flex items-center">
+            <img src={charging} className="w-52 h-72 rounded-bl-3xl rounded-tr-3xl drop-shadow-2xl"/>
+          </div>
 
           <div>
             <div className="my-10">
