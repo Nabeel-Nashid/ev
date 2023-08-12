@@ -10,16 +10,18 @@ import Products from "./pages/Products";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/>
-      <Home/> */}
-      <BrowserRouter>
+      <Navbar/>
+      <Home/>
+      <About />
+      <Service />
+      <Products />
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
-          <Route path="/product" element={<Products/>} />
-
+          <Route path="/product" element={<Products />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }

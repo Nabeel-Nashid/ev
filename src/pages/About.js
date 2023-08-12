@@ -8,11 +8,11 @@ import { BsTools } from "react-icons/bs";
 
 function About() {
   return (
-    <div className="grid w-full h-screen md:flex justify-evenly items-center">
+    <div name="about" className="grid w-full md:flex justify-evenly items-center my-8">
       <div className="flex flex-row justify-center">
         <div className="flex flex-col justify-between">
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-4xl text-[#87bf30] font-bold">
+            <h1 className="text-4xl text-green-600 font-bold">
               <CountUp end={20} />+
             </h1>
             <h1 className="my-1 font-light">YEARS OF EXPERIANCE</h1>
@@ -44,17 +44,17 @@ function About() {
       <div className="flex justify-center my-7">
         <img src={bg} className="w-64 h-96 rounded-lg" alt="Background" />
       </div>
-      <div>
-        <h1 className="text-[#87bf30] text-lg">About Edvex</h1>
-        <div className="flex ">
+      <div className="">
+        <h1 className="text-[#87bf30] text-lg ml-10 md:ml-0">About Edvex</h1>
+        <div className="flex ml-10 md:ml-0">
           <div class="w-1 h-28 bg-[#87bf30] my-2 mr-4"></div>
-          <div className="text-4xl font-extrabold">
+          <div className="md:text-4xl text-2xl  font-extrabold">
             <h1>Reliable Solution For</h1>
             <h1>All EV Charging</h1>
             <h1>Programs!</h1>
           </div>
         </div>
-        <p className="text-[#777973] w-96 my-4">
+        <p className="text-[#777973] w-96 my-4 ml-10 md:ml-0">
           Remember that using inline styles might not be the most recommended
           approach if you're using Tailwind CSS, as it's best to leverage
           Tailwind's utility classes whenever possible for consistency and
@@ -104,7 +104,7 @@ function About() {
             </blockquote>
           </figure>
         </div>
-        <button className="p-2 md:my-0 my-2 bg-[#87bf30] rounded-full text-white font-bold text-sm">
+        <button className="p-2 md:my-0 my-2 bg-[#87bf30] rounded-full text-white font-bold text-sm ml-7 md:ml-0">
           About More
         </button>
       </div>
