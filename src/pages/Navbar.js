@@ -40,9 +40,11 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import logo from "../assets/LOGO PNG.png";
-import { MdKeyboardArrowDown } from "react-icons/md";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaLinkedin } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
+import {  AiFillPhone } from "react-icons/ai";
+import {FiMail} from "react-icons/fi"
+import { BsWhatsapp } from "react-icons/bs";
 
 function Navbar() {
   const [bar, setBar] = useState(false);
@@ -50,9 +52,9 @@ function Navbar() {
     setBar(!bar);
   };
   return (
-    <div className="flex justify-around md:max-w-[full] w-full  h-[90px] mx-auto bg-black">
+    <div className=" flex justify-around md:max-w-[full] w-full  h-[90px] mx-auto bg-black">
       <div className="flex justify-center items-center">
-        <img src={logo} className="md:w-20 w-14" />
+        <img src={logo} className="w-32" />
       </div>
       {/* <div className="flex justify-center items-center"> */}
       <ul className="hidden md:flex flex-row font-header justify-center items-center">
@@ -112,6 +114,33 @@ function Navbar() {
         </li>
       </ul>
       {/* </div> */}
+
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 text-grey-300">
+        <ul>
+        <li className="mb-3 w-[160px] h-[60px] flex justify-between items-center bg-[#099c3f] ml-[-100px] hover:ml-[-10px] duration-300">
+            <a href="#" className="flex justify-between items-center w-full ">
+              Whatsapp <BsWhatsapp size={"30px"} />
+            </a>
+          </li>
+          <li className="mb-3 w-[160px] h-[60px] flex justify-between items-center bg-blue-600 ml-[-100px] hover:ml-[-10px] duration-300">
+            <a href="#" className="flex justify-between items-center w-full ">
+              Linked In <FaLinkedin size={"30px"} />
+            </a>
+          </li>
+          
+          <li className="mb-3 w-[160px] h-[60px] flex justify-between items-center bg-[#099c3f] ml-[-100px] hover:ml-[-10px] duration-300">
+            <a href="tel:9656346818" className="flex justify-between items-center w-full ">
+              Phone <AiFillPhone size={"30px"} />
+            </a>
+          </li>
+          <li className="mb-3 w-[160px] h-[60px] flex justify-between items-center bg-red-500 ml-[-100px] hover:ml-[-10px] duration-300">
+            <a href="#" className="flex justify-between items-center w-full ">
+              Mail <FiMail size={"30px"} />
+            </a>
+          </li>
+        </ul>
+      </div>
+
     </div>
   );
 }

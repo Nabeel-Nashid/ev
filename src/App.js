@@ -5,6 +5,7 @@ import Navbar from "./pages/Navbar";
 import About from "./pages/About";
 import Service from "./pages/Service";
 import Products from "./pages/Products";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <About />
       <Service />
       <Products />
-      
+      <Contact/>
     </div>
   );
 }

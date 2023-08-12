@@ -12,7 +12,7 @@ function About() {
       <div className="flex flex-row justify-center">
         <div className="flex flex-col justify-between">
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-4xl text-green-600 font-bold">
+            <h1 className="text-4xl text-[#87bf30] font-bold">
               <CountUp end={20} />+
             </h1>
             <h1 className="my-1 font-light">YEARS OF EXPERIANCE</h1>
