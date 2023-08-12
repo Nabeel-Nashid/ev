@@ -52,24 +52,16 @@ function Banner() {
       </div>
       <div className="max-w-[800px] flex flex-col justify-center ml-5 sm:mx-[27%]">
         <div className="">
-          <h1 className="text-xl sm:text-2xl text-[#63c2da] font-bold">
-            OUR SERVICES
-          </h1>
+          
           <h1 className="text-3xl sm:text-5xl tracking-wide text-white font-extrabold my-3">
             We Are The
           </h1>
           <div class="scrolling-container">
             <p class="text-white text-lg">
-              We Distribute & Represent Major Brands
+              First electric vehichle education center in Kerala
             </p>
-            <p class="text-white text-lg">We Distribute Top Fashion</p>
           </div>
-          {/* <p className="text-white text-lg ">
-            We Distributes & Represents major Brands
-          </p>
-          <p className="text-white text-lg ">
-            We Distributes Top fashion
-          </p> */}
+          
           <div className="flex">
             <button className="bg-green-600 sm:p-2 p-1 sm:my-3 text-xs sm:text-base rounded-lg sm:w-32 w-20 text-white font-header">
               Get Started
